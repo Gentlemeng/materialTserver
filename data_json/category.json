@@ -1,0 +1,26 @@
+{
+    "RECORDS": [
+        {
+            "ID": "1",
+            "CATEGORY_NAME": "轨道",
+            "IMAGE": "",
+            "TYPE": 1,
+            "ISLEAF":false
+        },
+        {
+            "ID": "2",
+            "CATEGORY_NAME": "钢材",
+            "IMAGE": "",
+            "TYPE": 2,
+            "ISLEAF":false
+
+        },
+        {
+            "ID": "3",
+            "CATEGORY_NAME": "建筑类",
+            "IMAGE": "",
+            "TYPE": 3,
+            "ISLEAF":false
+        }
+    ]
+}
