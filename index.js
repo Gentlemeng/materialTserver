@@ -10,20 +10,45 @@ app.use(cors())
 //引入数据连接
 const {connect,initSchema} = require('./database/init.js')
 let companyIntro =require('./appApi/apiCompanyIntro.js')
+let contact =require('./appApi/apiContact.js')
+
 let category =require('./appApi/insterProduct.js')
 //立即执行函数
 ;(async()=>{
     // debugger;
     await connect()
     initSchema()
-    // const CompanyIntro = mongoose.model('companyIntro')
-    // let oneIntro = new CompanyIntro({address:['1','2'],sellRange:['1','2'],promise:['1','2']})
-    // oneIntro.save().then(()=>{
-    //     console.log("插入成功")
+    // const Contact = mongoose.model('contact')
+    // const contactArr = [
+    //     {
+    //         type: '公司名称',
+    //         value: '邯郸市壮达物资有限公司'
+    //     }, {
+    //         type: '公司地址',
+    //         value: '河北省邯郸市丛台区丛台西路25号鹿诚商务大厦C单元13层C1303'
+    //     }, {
+    //         type: '公司电话',
+    //         value: '0310-3120336'
+    //     }, {
+    //         type: '联系人',
+    //         value: '安经理'
+    //     },{
+    //         type: '手机号码',
+    //         value: '13831000156'
+    //     }
+    // ]
+    // contactArr.forEach(item=>{
+    //     let oneIntro = new Contact({
+    //         type:item.type,
+    //         value:item.value
+    //     })
+    //     oneIntro.save().then(()=>{
+    //         console.log("插入成功")
+    //     })
     // })
 })()
 //装载子路由
-router.use('/material',companyIntro.routes(),category.routes())
+router.use('/material',companyIntro.routes(),contact.routes(),category.routes())
 //加载路由中间件
 app.use(router.routes())
 app.use(router.allowedMethods())
