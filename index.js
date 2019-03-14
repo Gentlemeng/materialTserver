@@ -11,8 +11,7 @@ app.use(cors())
 const {connect,initSchema} = require('./database/init.js')
 let companyIntro =require('./appApi/apiCompanyIntro.js')
 let contact =require('./appApi/apiContact.js')
-
-let category =require('./appApi/insterProduct.js')
+let product =require('./appApi/apiProduct.js')
 //立即执行函数
 ;(async()=>{
     // debugger;
@@ -48,7 +47,7 @@ let category =require('./appApi/insterProduct.js')
     // })
 })()
 //装载子路由
-router.use('/material',companyIntro.routes(),contact.routes(),category.routes())
+router.use('/material',companyIntro.routes(),contact.routes(),product.routes())
 //加载路由中间件
 app.use(router.routes())
 app.use(router.allowedMethods())
