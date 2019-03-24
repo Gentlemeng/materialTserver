@@ -48,6 +48,29 @@ router.get('/insertAllCategorySub',async(ctx)=>{
     })
     ctx.body='开始导入数据'
 })
+//将商品详情插入数据库
+router.get('/insertProductDetail',async(ctx)=>{
+    fs.readFile('./data_json/product_detail.json','utf8',(err,data)=>{
+        if(!err){
+            data = JSON.parse(data);
+            let saveCount = 0;
+            const ProductDetail = mongoose.model('Product_detail');
+            data.RECORDS.map((value,index)=>{
+                let newProductDetail = new ProductDetail(value);
+                newProductDetail.save().then(()=>{
+                    // console.log(value)
+                    saveCount++;
+                    console.log('成功'+saveCount);
+                }).catch(err=>{
+                    console.log('失败'+err);
+                })
+            })
+        }else{
+            console.log(err);
+        }
+    })
+    ctx.body='开始导入数据'
+})
 //商品大类
 router.get('/category',async(ctx)=>{
     try{
@@ -74,6 +97,23 @@ router.post('/category_sub',async(ctx)=>{
         let count = allRsult.length
         // ctx.body = {code:200,data:{result:result,count:count}}
         ctx.body = {code:200,data:result,count:count}
+
+    }catch(err){
+        ctx.body = {code:500,data:err}
+    }
+})
+//商品详情
+router.post('/productDetail',async(ctx)=>{
+    try{
+        let ProductDetail = mongoose.model('Product_detail')
+        // console.log(ctx.request.body)
+
+        let productId = ctx.request.body.productId
+
+        // console.log(productId);
+        let result = await ProductDetail.find({ID:productId}).exec()
+        console.log(result);
+        ctx.body = {code:200,data:result}
 
     }catch(err){
         ctx.body = {code:500,data:err}
