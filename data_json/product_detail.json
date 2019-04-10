@@ -1,63 +1,84 @@
 {
-    "RECORDS": [{
-        "ID": "11",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"8-30kg轻轨\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "12",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"38-60kg重轨\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "13",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"38-120kg起重轨\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "21",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"工字钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "22",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"U型钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "23",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"六棱钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "24",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"槽钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "25",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"扁钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "26",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"角钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "27",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"道钉\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "31",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"道夹板\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "32",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"鱼尾螺栓\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "33",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"锚杆\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "34",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"螺杆\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "35",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"锚网\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "36",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"穿墙丝\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "37",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"山型件\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "38",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"建筑配件\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "39",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"木胶板\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }, {
-        "ID": "39a",
-        "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"异形件\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
-    }]
+    "RECORDS": [
+        {
+            "ID": "11",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"8-30kg轻轨\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "12",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"38-60kg重轨\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "13",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"38-120kg起重轨\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "21",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"工字钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "22",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"U型钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "23",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"六棱钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "24",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"槽钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "25",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"扁钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "26",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"角钢\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "27",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"道钉\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "31",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"道夹板\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "32",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"鱼尾螺栓\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "33",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"锚杆\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "34",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"螺杆\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "35",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"锚网\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "36",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"穿墙丝\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "37",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"山型件\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "38",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"建筑配件\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "39",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"木胶板\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        },
+        {
+            "ID": "39a",
+            "DETAIL": "[{\"infoName\":\"产品\",\"value\":\"异形件\"},{\"infoName\":\"单价\",\"value\":\"\"},{\"infoName\":\"最小起订量\",\"value\":1},{\"infoName\":\"供货总量\",\"value\":100},{\"infoName\":\"发货期限\",\"value\":\"自买家付款之日起3天内发货\"},{\"infoName\":\"有效期至\",\"value\":\"2020-12-31\"},{\"infoName\":\"最后更新\",\"value\":\"2019-03-07\"}]"
+        }
+    ]
 }

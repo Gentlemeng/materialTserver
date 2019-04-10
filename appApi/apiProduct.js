@@ -112,12 +112,18 @@ router.post('/productDetail',async(ctx)=>{
 
         // console.log(productId);
         let result = await ProductDetail.find({ID:productId}).exec()
-        console.log(result);
-        ctx.body = {code:200,data:result}
+        // console.log(result);
+        let pre = await ProductDetail.find({ID:{ '$lt': productId }}).sort({ID: -1}).limit(1)
+        let next = await ProductDetail.find({ID:{ '$gt': productId }}).sort({ID: 1}).limit(1)
+        // console.log(preId,productId,nextId)
+        pre.length?pre = pre[0].ID:pre = ''
+        next.length?next = next[0].ID:next = ''
+        // result.preId = pre
+        // result.nextId = next
+        ctx.body = {code:200,data:{result:result,preId:pre,nextId:next}}
 
     }catch(err){
         ctx.body = {code:500,data:err}
     }
 })
-
 module.exports = router
