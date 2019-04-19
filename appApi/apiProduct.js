@@ -75,7 +75,7 @@ router.get('/insertProductDetail',async(ctx)=>{
 router.get('/category',async(ctx)=>{
     try{
         let Category = mongoose.model('Category')
-        let result = await Category.find().exec()
+        let result = await Category.find().sort({ID: 1}).exec()
         ctx.body = {code:200,data:result}
     }catch(err){
         ctx.body = {code:500,data:err}
@@ -93,7 +93,7 @@ router.post('/category_sub',async(ctx)=>{
         // console.log(ctx.request.body);
         // debugger
         let allRsult = await CategorySub.find({CATEGORY_ID:categoryId}).exec()
-        let result = await CategorySub.find({CATEGORY_ID:categoryId}).skip(start).limit(pageSize).exec()
+        let result = await CategorySub.find({CATEGORY_ID:categoryId}).sort({ID: 1}).skip(start).limit(pageSize).exec()
         let count = allRsult.length
         // ctx.body = {code:200,data:{result:result,count:count}}
         ctx.body = {code:200,data:result,count:count}
